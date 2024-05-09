@@ -10,6 +10,7 @@ app = Flask(__name__)
 cors = CORS(app, origins=["http://localhost:3000", "http://localhost:3000"])
 DATA_FOLDER_PATH = Path("/home/matthias/Schreibtisch/Modul-App/BE/assets")
 
+# open file
 def __get__file__data(file_path):
     with open(file_path) as d:
         file_data = json.load(d)
