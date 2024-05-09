@@ -1,0 +1,401 @@
+[
+  {
+    "Modul": "Modellierung",
+    "Modulnummer": "C114.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 8,
+    "SWS": "4/0/2/0",
+    "Prüfungsleistung": ["PVB", "PVP", "PK"]
+  },
+  {
+    "Modul": "Digitaltechnik",
+    "Modulnummer": "C362.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 8,
+    "SWS": "2/0/1/0",
+    "Prüfungsleistung": ["PK"]
+  },
+  {
+    "Modul": "Multimedia-Grundkurs I",
+    "Modulnummer": "C707.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 4,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVB", "PVJ", "PK"]
+  },
+  {
+    "Modul": "Grundlagen der Programmierung",
+    "Modulnummer": "C963.1",
+    "Art": "Pflichtmodul",
+    "ECTS": 7,
+    "SWS": "2.5/0/0/2",
+    "Prüfungsleistung": ["PM"]
+  },
+  {
+    "Modul": "Mathematik für Informatiker I",
+    "Modulnummer": "N662.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 7,
+    "SWS": "4/0/2/0",
+    "Prüfungsleistung": ["PVB", "PK"]
+  },
+  {
+    "Modul": "Algorithmen und Datenstrukturen",
+    "Modulnummer": "C300.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 6,
+    "SWS": "4/0/2/0",
+    "Prüfungsleistung": ["PVB", "PVP", "PK"]
+  },
+  {
+    "Modul": "Anwendungsorientierte Programmierung",
+    "Modulnummer": "C680.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVB", "PJ"]
+  },
+  {
+    "Modul": "Multimedia-Grundkurs II",
+    "Modulnummer": "C734.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/2/0/0",
+    "Prüfungsleistung": ["PVB", "PK"]
+  },
+  {
+    "Modul": "Mathematik für Informatiker II",
+    "Modulnummer": "N055.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVB", "PK"]
+  },
+  {
+    "Modul": "Physik für Medieninformatiker",
+    "Modulnummer": "N933.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PK"]
+  },
+  {
+    "Modul": "Betriebssysteme und Rechnernetze",
+    "Modulnummer": "C287.3",
+    "Art": "Pflichtmodul",
+    "ECTS": 6,
+    "SWS": "4/0/0/2",
+    "Prüfungsleistung": ["PK"]
+  },
+  {
+    "Modul": "Softwaretechnik",
+    "Modulnummer": "C559.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/1/1",
+    "Prüfungsleistung": ["PVJ", "PVT", "PK"]
+  },
+  {
+    "Modul": "Datenbanken",
+    "Modulnummer": "C719.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/1/1",
+    "Prüfungsleistung": ["PVJ", "PK"]
+  },
+  {
+    "Modul": "Multimediale Webprogrammierung",
+    "Modulnummer": "C741.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVB", "PK"]
+  },
+  {
+    "Modul": "Medienrecht",
+    "Modulnummer": "C914.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 4,
+    "SWS": "2/2/0/0",
+    "Prüfungsleistung": ["PK"]
+  },
+  {
+    "Modul": "Softwareprojekt I",
+    "Modulnummer": "C073",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "1/0/0/1",
+    "Prüfungsleistung": ["PJ"]
+  },
+  {
+    "Modul": "Computergrafik",
+    "Modulnummer": "C121.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVC", "PK"]
+  },
+  {
+    "Modul": "Fortgeschrittene Programmierung",
+    "Modulnummer": "C393.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVB", "PK"]
+  },
+  {
+    "Modul": "Mediengestaltung",
+    "Modulnummer": "C440.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVB", "PVR", "PM"]
+  },
+  {
+    "Modul": "Wissenschaftskommunikation in der Informatik",
+    "Modulnummer": "C902.1",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "1/3/0/0",
+    "Prüfungsleistung": ["PJ 1", "PR 1"]
+  },
+  {
+    "Modul": "Softwareprojekt II",
+    "Modulnummer": "C171",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "0.5/0/0/1",
+    "Prüfungsleistung": ["PJ"]
+  },
+  {
+    "Modul": "Einführung in die virtuelle und erweiterte Realität (VR/AR)",
+    "Modulnummer": "C493 (C384)",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PJ 1", "PR 1"]
+  },
+  {
+    "Modul": "Multimedia-Datenbanken",
+    "Modulnummer": "C757.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/2/0/0",
+    "Prüfungsleistung": ["PVJ", "PK"]
+  },
+  {
+    "Modul": "Digitale Signal- und Bildverarbeitung",
+    "Modulnummer": "C763.1",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVB", "PK"]
+  },
+  {
+    "Modul": "Praxisprojekt",
+    "Modulnummer": "C222.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 15,
+    "Prüfungsleistung": ["PVB", "PR"]
+  },
+  {
+    "Modul": "Bachelormodul",
+    "Modulnummer": "C241.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 15,
+    "Prüfungsleistung": ["PH 1", "PV 1"]
+  },
+  {
+    "Modul": "Semantic Web",
+    "Modulnummer": "C249.3",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/2/0/0",
+    "Prüfungsleistung": ["PJ"]
+  },
+  {
+    "Modul": "e-Learning",
+    "Modulnummer": "C585.2",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVJ", "PM"]
+  },
+  {
+    "Modul": "Medienmarketing",
+    "Modulnummer": "C681.2",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/2/0/0",
+    "Prüfungsleistung": ["PVH", "PK"]
+  },
+  {
+    "Modul": "Datenbanken (Aufbaukurs)",
+    "Modulnummer": "C720.2",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVT", "PM"]
+  },
+  {
+    "Modul": "E-Business",
+    "Modulnummer": "C977.1 (MIB8050)",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/2/0/0",
+    "Prüfungsleistung": ["PVR", "PK"]
+  },
+  {
+    "Modul": "Automaten und formale Sprachen",
+    "Modulnummer": "C993.2",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVB", "PVP", "PK"]
+  },
+  {
+    "Modul": "Studioproduktion I",
+    "Modulnummer": "I349.1 (08MTB8109 (6.FS,WP))",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "0/2/0/2",
+    "Prüfungsleistung": ["PJ"]
+  },
+  {
+    "Modul": "Grundlagen der Audio-/Video-Technik",
+    "Modulnummer": "I562.2 (MIB8080)",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "3/0/0/1",
+    "Prüfungsleistung": ["PK", "PJ"]
+  },
+  {
+    "Modul": "Kommunikation und Medien",
+    "Modulnummer": "I590.1 (15BVB6100 (6.FS,PF))",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/0/0",
+    "Prüfungsleistung": ["PK"]
+  },
+  {
+    "Modul": "Elektronische Berichterstattung, Reportage, Dokumentation",
+    "Modulnummer": "I604.1 (14MIB8070 (4.FS,WP))",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "0/2/2/0",
+    "Prüfungsleistung": ["PB"]
+  },
+  {
+    "Modul": "Diskrete Mathematik und Optimierung",
+    "Modulnummer": "N468 (N915)",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PK"]
+  },
+  {
+    "Modul": "Computeranimation",
+    "Modulnummer": "C182.2",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PM"]
+  },
+  {
+    "Modul": "Autorensysteme",
+    "Modulnummer": "C246.2",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVJ", "PM"]
+  },
+  {
+    "Modul": "Grundlagen Internet-basierter Informationssysteme",
+    "Modulnummer": "C247.2",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PM 1"]
+  },
+  {
+    "Modul": "Dokumentbeschreibungssprachen",
+    "Modulnummer": "C651.2",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/2/0/0",
+    "Prüfungsleistung": ["PVB", "PJ"]
+  },
+  {
+    "Modul": "Mobile Computing",
+    "Modulnummer": "C652.2",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PC"]
+  },
+  {
+    "Modul": "Onlineshop-Projekt",
+    "Modulnummer": "C668.2",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/0/2",
+    "Prüfungsleistung": ["PVB", "PVP", "PVC", "PP 1", "PJ 1"]
+  },
+  {
+    "Modul": "IT-Sicherheit",
+    "Modulnummer": "C799.2",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVP", "PK"]
+  },
+  {
+    "Modul": "App-Konzeption und App-Design",
+    "Modulnummer": "I300.1*",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "0/3/0/0",
+    "Prüfungsleistung": ["PK", "PJ"]
+  },
+  {
+    "Modul": "Spezielle Probleme der Reproduktionstechnik",
+    "Modulnummer": "I416.1 (17BMB8701 (7.FS,WP))",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "1/0/0/2",
+    "Prüfungsleistung": ["PP 1"]
+  },
+  {
+    "Modul": "Studioproduktion II interaktiv",
+    "Modulnummer": "I976.1* (08MTB8008 (7.FS,WP))",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 10,
+    "SWS": "0/4/0/0",
+    "Prüfungsleistung": ["PJ"]
+  },
+	{
+		"Modul": "Einführung in die Betriebswirtschaftslehre",
+		"Modulnummer": "W233.2 (W861)",
+		"Art": "Wahlpflichtmodul",
+		"ECTS": 5,
+		"SWS": "2/2/0/0",
+		"Prüfungsleistung": ["PVR", "PK"]
+	},
+	{
+    "Modul": "Englisch für Studium und Beruf (B2)",
+    "Modulnummer": "F742.1*",
+    "Art": "Pflichtmodul",
+    "ECTS": 3,
+    "SWS": "0/3/0/0",
+    "Prüfungsleistung": ["PVC", "PR 1,3", "PK 1,3"]
+  },
+  {
+    "Modul": "Studium generale",
+    "Modulnummer": "U622",
+    "Art": "Pflichtmodul",
+    "ECTS": 2,
+    "SWS": "2/0/0/0",
+    "Prüfungsleistung": ["TB 2"]
+  } 
+]
+

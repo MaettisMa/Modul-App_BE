@@ -1,0 +1,276 @@
+[
+  {
+    "Modul": "Betriebliche Informationssysteme",
+    "Modulnummer": "C251.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/0/2",
+    "Prüfungsleistung": ["PJ 1", "PK 1"]
+  },
+  {
+    "Modul": "Prinzipien von Programmiersprachen",
+    "Modulnummer": "C377.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVB", "PK"]
+  },
+  {
+    "Modul": "Media Lifecycle Management",
+    "Modulnummer": "C478",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PK"]
+  },
+  {
+    "Modul": "Software Engineering",
+    "Modulnummer": "C762",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVB", "PR 1", "PK 1"]
+  },
+  {
+    "Modul": "Einführung in die Visualisierung",
+    "Modulnummer": "C933",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PK"]
+  },
+  {
+    "Modul": "Digitales Lehr- und Lernmanagement",
+    "Modulnummer": "C971 (C366)",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVJ", "PM"]
+  },
+	{
+    "Modul": "Oberseminar 1",
+    "Modulnummer": "C133.2-1",
+    "Art": "Pflichtmodul",
+    "ECTS": 2.5,
+    "SWS": "0/2/0/0",
+    "Prüfungsleistung": ["PKQ 1"]
+  },
+  {
+    "Modul": "Oberseminar 2",
+    "Modulnummer": "C133.2-2",
+    "Art": "Pflichtmodul",
+    "ECTS": 2.5,
+    "SWS": "0/2/0/0",
+    "Prüfungsleistung": ["PKQ 1"]
+  },  
+  {
+    "Modul": "Human Computer Interaction",
+    "Modulnummer": "C593.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVJ", "PK"]
+  },
+  {
+    "Modul": "Projekt",
+    "Modulnummer": "C149.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "X",
+    "Prüfungsleistung": ["PH"]
+  },
+  {
+    "Modul": "Kryptologie",
+    "Modulnummer": "C179.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVJ", "PR 1", "PC 1"]
+  },
+  {
+    "Modul": "Mastermodul",
+    "Modulnummer": "C533.2",
+    "Art": "Pflichtmodul",
+    "ECTS": 30,
+    "SWS": "X",
+    "Prüfungsleistung": ["PVR", "PH 1", "PV 1"]
+  },
+  {
+    "Modul": "Algorithm Engineering",
+    "Modulnummer": "C055.2",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVP", "PK 1", "PJ 1"]
+  },
+  {
+    "Modul": "Data Warehousing",
+    "Modulnummer": "C112.2",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/1/1/0",
+    "Prüfungsleistung": ["PVB", "PK 1", "PJ 1"]
+  },
+  {
+    "Modul": "Mustererkennung",
+    "Modulnummer": "C201.2",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/0/2",
+    "Prüfungsleistung": ["PVJ", "PC 1", "PR 1"]
+  },
+  {
+    "Modul": "Multimedia-Datenbanken (Aufbaukurs)",
+    "Modulnummer": "C277.2",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "0/0/0/4",
+    "Prüfungsleistung": ["PJ"]
+  },
+  {
+    "Modul": "Progressive Web Applications",
+    "Modulnummer": "C367",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVB", "PJ"]
+  },
+  {
+    "Modul": "Visualisierung in Naturwissenschaft und Technik",
+    "Modulnummer": "C398 (C122)",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PM"]
+  },
+  {
+    "Modul": "Crossmedia-Produktion",
+    "Modulnummer": "C411.2",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVB", "PJ"]
+  },
+  {
+    "Modul": "3D-Erfassung, -Design und -Dynamik",
+    "Modulnummer": "C446 (C455)",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVB", "PJ 1", "PM 1"]
+  },
+  {
+    "Modul": "Computermusik",
+    "Modulnummer": "C624",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVB", "PM", "2/0/2/0", "PVB", "PM"]
+  },
+  {
+    "Modul": "Mediendidaktik",
+    "Modulnummer": "C777.2",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/2/0/0",
+    "Prüfungsleistung": ["PVJ", "PH 1", "PM 1"]
+  },
+  {
+    "Modul": "Künstliche Intelligenz",
+    "Modulnummer": "C803.1 (zuvor: C244)",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVB", "PVR", "PK"]
+  },
+  {
+    "Modul": "Nichtlineare Optimierung",
+    "Modulnummer": "N298",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVB", "PK"]
+  },
+  {
+    "Modul": "Innovative Rechnerarchitekturen",
+    "Modulnummer": "C166.2",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVR", "PM"]
+  },
+  {
+    "Modul": "Digitale Bildverarbeitung",
+    "Modulnummer": "C169.2",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVJ", "PK"]
+  },
+  {
+    "Modul": "Internetworking",
+    "Modulnummer": "C190.2",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "0/0/3/1",
+    "Prüfungsleistung": ["PM"]
+  },
+  {
+    "Modul": "Evolutionäre Algorithmen",
+    "Modulnummer": "C195.2",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVP", "PVJ", "PM"]
+  },
+  {
+    "Modul": "IT-Sicherheit (Aufbaukurs)",
+    "Modulnummer": "C237.2",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PM"]
+  },
+  {
+    "Modul": "Big-Data-Technologien",
+    "Modulnummer": "C268",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVB", "PVR", "PK"]
+  },
+  {
+    "Modul": "Objekt- und Gestenerkennung",
+    "Modulnummer": "C312",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVJ", "PM 1", "PJ 1"]
+  },
+  {
+    "Modul": "Operations Research",
+    "Modulnummer": "N213.2",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVB", "PC"]
+  },
+  {
+    "Modul": "Empirische Methoden für Informatiker",
+    "Modulnummer": "N604",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PVB", "PK"]
+  },
+  {
+    "Modul": "Zeitreihenanalyse und Prognoseverfahren",
+    "Modulnummer": "N965 (N220)",
+    "Art": "Wahlpflichtmodul",
+    "ECTS": 5,
+    "SWS": "2/0/2/0",
+    "Prüfungsleistung": ["PK"]
+  }
+  
+]
+
