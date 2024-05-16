@@ -1,24 +1,27 @@
 from flask import Flask, json, request
-#from flask import request
 from flask_cors import CORS, cross_origin
 from pathlib import Path
 import logging
 import sys
-import json
+#import json
 
 app = Flask(__name__)
-cors = CORS(app, origins=["http://localhost:3000", "http://localhost:3000"])
-DATA_FOLDER_PATH = Path("/home/matthias/Schreibtisch/Modul_App/modul-app/BE/assets")
+cors = CORS(app, 
+    origins=["http://localhost:3000", "http://localhost:3000"]
+)
+DATA_FOLDER_PATH = Path(
+    "/home/matthias/Schreibtisch/Modul_App/modul-app/BE/assets"
+)
 
 # open file
 def __get__file__data(file_path):
-    with open(file_path) as d:
-        file_data = json.load(d)
+    with open(file_path) as file:
+        file_data = json.load(file)
         return file_data
 
 def __update__file(index_module, updated_module, file_path):
-    with open(file_path, 'r+') as f:
-        file_data = json.load(f)
+    with open(file_path, 'r+') as file:
+        file_data = json.load(file)
         updated_module = json.loads(updated_module.decode('utf-8'))
         i = 0
         while (i < len(file_data)):
@@ -39,7 +42,9 @@ def __update__file(index_module, updated_module, file_path):
 @app.route('/', methods=["GET", "POST"])
 def __degrees():
     if request.method == "GET":
-        data = __get__file__data(DATA_FOLDER_PATH / "Studiengaenge.json")
+        data = __get__file__data(
+            DATA_FOLDER_PATH / "Studiengaenge.json"
+        )
         response = app.response_class(
             response=json.dumps(data),
             status=200,
@@ -56,7 +61,9 @@ def __degrees():
 @app.route('/20mib', methods=["GET", "POST"])
 def __20mib():
     if request.method == "GET":
-        data = __get__file__data(DATA_FOLDER_PATH / "20mib-module-short.json")
+        data = __get__file__data(
+            DATA_FOLDER_PATH / "20mib-module-short.json"
+        )
         response = app.response_class(
             response=json.dumps(data),
             status=200,
@@ -73,7 +80,9 @@ def __20mib():
 @app.route('/20inb', methods=["GET", "POST"])
 def __20inb():
     if request.method == "GET":
-        data = __get__file__data(DATA_FOLDER_PATH / "20inb-module-short.json")
+        data = __get__file__data(
+            DATA_FOLDER_PATH / "20inb-module-short.json"
+        )
         response = app.response_class(
             response=json.dumps(data),
             status=200,
@@ -90,7 +99,9 @@ def __20inb():
 @app.route('/20mim', methods=["GET", "POST"])
 def __20mim():
     if request.method == "GET":
-        data = __get__file__data(DATA_FOLDER_PATH / "20mim-module-short.json")
+        data = __get__file__data(
+            DATA_FOLDER_PATH / "20mim-module-short.json"
+        )
         response = app.response_class(
             response=json.dumps(data),
             status=200,
@@ -107,7 +118,9 @@ def __20mim():
 @app.route('/20inm', methods=["GET", "POST"])
 def __get__20inm():
     if request.method == "GET":
-        data = __get__file__data(DATA_FOLDER_PATH / "20inm-module-short.json")
+        data = __get__file__data(
+            DATA_FOLDER_PATH / "20inm-module-short.json"
+        )
         response = app.response_class(
             response=json.dumps(data),
             status=200,
