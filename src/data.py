@@ -35,9 +35,9 @@ def update_file(index_module, updated_module, file_path):
                 print(str(type(file_data)))
                 print(str(file_data[i]))
             i = i + 1
-        f.seek(0)
-        f.truncate()
-        json.dump(file_data, f)
+        file_.seek(0)
+        file_.truncate()
+        json.dump(file_data, file_)
 
 
 @app.route('/', methods=["GET", "POST"])
