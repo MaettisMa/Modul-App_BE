@@ -63,7 +63,7 @@ def degrees():
         return response
 
 
-@app.route("/20mib", methods=["GET", "POST", "DELETE"])
+@app.route("/20mib", methods=["GET", "PUT", "DELETE"])
 def twenty_mib():
     if request.method == "GET":
         data = get_file_data(
@@ -75,7 +75,7 @@ def twenty_mib():
             mimetype='application/json'
         )
         return response
-    elif request.method == "POST":
+    elif request.method == "PUT":
         file_path = DATA_FOLDER_PATH/"20mib-module-short.json"
         module = request.data
         index = request.args.get("id")
@@ -88,7 +88,7 @@ def twenty_mib():
         return "DELETE / HTTP/1.1 200"
 
 
-@app.route("/20inb", methods=["GET", "POST", "DELETE"])
+@app.route("/20inb", methods=["GET", "PUT", "DELETE"])
 def twenty_inb():
     if request.method == "GET":
         data = get_file_data(
@@ -100,7 +100,7 @@ def twenty_inb():
             mimetype='application/json'
         )
         return response
-    elif request.method == "POST":
+    elif request.method == "PUT":
         file_path = DATA_FOLDER_PATH/"20inb-module-short.json"
         module = request.data
         index = request.args.get("id")
@@ -113,7 +113,7 @@ def twenty_inb():
         return "DELETE / HTTP/1.1 200"
 
 
-@app.route("/20mim", methods=["GET", "POST", "DELETE"])
+@app.route("/20mim", methods=["GET", "PUT", "DELETE"])
 def twenty_mim():
     if request.method == "GET":
         data = get_file_data(
@@ -125,7 +125,7 @@ def twenty_mim():
             mimetype='application/json'
         )
         return response
-    elif request.method == "POST":
+    elif request.method == "PUT":
         file_path = DATA_FOLDER_PATH/"20mim-module-short.json"
         module = request.data
         index = request.args.get("id")
@@ -138,7 +138,7 @@ def twenty_mim():
         return "DELETE / HTTP/1.1 200"
 
 
-@app.route('/20inm', methods=["GET", "POST", "DELETE"])
+@app.route('/20inm', methods=["GET", "PUT", "DELETE"])
 def twenty_inm():
     if request.method == "GET":
         data = get_file_data(
@@ -150,7 +150,7 @@ def twenty_inm():
             mimetype='application/json'
         )
         return response
-    elif request.method == "POST":
+    elif request.method == "PUT":
         file_path = DATA_FOLDER_PATH/"20inm-module-short.json"
         module = request.data
         index = request.args.get("id")
