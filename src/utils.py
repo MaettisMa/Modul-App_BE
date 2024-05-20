@@ -1,14 +1,17 @@
 from flask import json
 
+
 def get_file_data(file_path):
     with open(file_path) as file_:
         file_data = json.load(file_)
+        file_.close()
         return file_data
 
 
 def update_file(index_module, updated_module, file_path):
     with open(file_path, "r+") as file_:
         file_data = json.load(file_)
+        print(updated_module)
         updated_module = json.loads(updated_module.decode('utf-8'))
         i = 0
         while (i < len(file_data)):
@@ -25,6 +28,7 @@ def update_file(index_module, updated_module, file_path):
         file_.seek(0)
         file_.truncate()
         json.dump(file_data, file_)
+        file_.close()
 
 
 def delete_module(index_module, file_path):
@@ -34,3 +38,14 @@ def delete_module(index_module, file_path):
         file_.seek(0)
         file_.truncate()
         json.dump(file_data, file_)
+        file_.close()
+
+def append_module(new_module, file_path):
+    with open(file_path, "r+") as file_:
+        file_data = json.load(file_)
+        new_module = json.loads(new_module.decode('utf-8'))
+        file_data.append(new_module)
+        file_.seek(0)
+        file_.truncate()
+        json.dump(file_data, file_)
+        file_.close()

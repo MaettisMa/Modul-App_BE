@@ -29,7 +29,7 @@ def degrees():
         return response
 
 
-@app.route("/20mib", methods=["GET", "PUT", "DELETE"])
+@app.route("/20mib", methods=["GET", "PUT", "DELETE", "POST"])
 def twenty_mib():
     if request.method == "GET":
         data = get_file_data(
@@ -46,15 +46,21 @@ def twenty_mib():
         module = request.data
         index = request.args.get("id")
         update_file(index, module, file_path)
-        return "POST / HTTP/1.1 200"
+        return "PUT / HTTP/1.1 200"
     elif request.method == "DELETE":
         file_path = DATA_FOLDER_PATH/"20mib-module-short.json"
         index = request.args.get("id")
         delete_module(index, file_path)
         return "DELETE / HTTP/1.1 200"
+    elif request.method == "POST":
+        file_path = DATA_FOLDER_PATH/"20mib-module-short.json"
+        module = request.data
+        append_module(module, file_path)
+        return "POST / HTTP/1.1 200"
 
 
-@app.route("/20inb", methods=["GET", "PUT", "DELETE"])
+
+@app.route("/20inb", methods=["GET", "PUT", "DELETE", "POST"])
 def twenty_inb():
     if request.method == "GET":
         data = get_file_data(
@@ -71,15 +77,20 @@ def twenty_inb():
         module = request.data
         index = request.args.get("id")
         update_file(index, module, file_path)
-        return "POST / HTTP/1.1 200"
+        return "PUT / HTTP/1.1 200"
     elif request.method == "DELETE":
         file_path = DATA_FOLDER_PATH/"20inb-module-short.json"
         index = request.args.get("id")
         delete_module(index, file_path)
         return "DELETE / HTTP/1.1 200"
+    elif request.method == "POST":
+        file_path = DATA_FOLDER_PATH/"20inb-module-short.json"
+        module = request.data
+        append_module(module, file_path)
+        return "POST / HTTP/1.1 200"
 
 
-@app.route("/20mim", methods=["GET", "PUT", "DELETE"])
+@app.route("/20mim", methods=["GET", "PUT", "DELETE", "POST"])
 def twenty_mim():
     if request.method == "GET":
         data = get_file_data(
@@ -96,15 +107,20 @@ def twenty_mim():
         module = request.data
         index = request.args.get("id")
         update_file(index, module, file_path)
-        return "POST / HTTP/1.1 200"
+        return "PUT / HTTP/1.1 200"
     elif request.method == "DELETE":
         file_path = DATA_FOLDER_PATH/"20mim-module-short.json"
         index = request.args.get("id")
         delete_module(index, file_path)
         return "DELETE / HTTP/1.1 200"
+    elif request.method == "POST":
+        file_path = DATA_FOLDER_PATH/"20mim-module-short.json"
+        module = request.data
+        append_module(module, file_path)
+        return "POST / HTTP/1.1 200"
 
 
-@app.route('/20inm', methods=["GET", "PUT", "DELETE"])
+@app.route('/20inm', methods=["GET", "PUT", "DELETE", "POST"])
 def twenty_inm():
     if request.method == "GET":
         data = get_file_data(
@@ -121,9 +137,15 @@ def twenty_inm():
         module = request.data
         index = request.args.get("id")
         update_file(index, module, file_path)
-        return "POST / HTTP/1.1 200"
+        return "PUT / HTTP/1.1 200"
     elif request.method == "DELETE":
         file_path = DATA_FOLDER_PATH/"20inm-module-short.json"
         index = request.args.get("id")
         delete_module(index, file_path)
         return "DELETE / HTTP/1.1 200"
+    elif request.method == "POST":
+        file_path = DATA_FOLDER_PATH/"20inm-module-short.json"
+        module = request.data
+        append_module(module, file_path)
+        return "POST / HTTP/1.1 200"
+
